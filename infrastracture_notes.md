@@ -24,3 +24,11 @@ ifp-private-rtb
 RTB ID: rtb-025a2ca28e63a0289
 Associated with: ifp-private (subnet-0d64...)
 Routes: 10.0.0.0/16 -> Local only
+
+Instances:
+ifp-web-server
+Instance id: i-0520a5f1efa98e6f2
+Public IP: 63.176.173.50
+Private IP: 10.0.1.127
+OS: Amazon Linux 2023
+Role: Entry point & Web Proxy
