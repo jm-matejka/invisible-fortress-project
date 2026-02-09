@@ -24,6 +24,7 @@ ifp-private-rtb
 RTB ID: rtb-025a2ca28e63a0289
 Associated with: ifp-private (subnet-0d64...)
 Routes: 10.0.0.0/16 -> Local only
+        0.0.0.0/0 -> Instance (ifp-web-server)
 
 Instances:
 ifp-web-server
@@ -32,3 +33,15 @@ Public IP: 63.176.173.50
 Private IP: 10.0.1.127
 OS: Amazon Linux 2023
 Role: Entry point & Web Proxy
+
+ifp-db-server
+ifp-web-server
+Instance id: i-001eac933af567182
+Private IP: 10.0.2.235
+OS: Amazon Linux 2023
+Role: Entry point & Web Proxy
+
+NAT Configuration (Web server Host):
+IP Forwarding enabled in kernel (sysctl)
+IP Masquerade enabled in iptables (NAT table)
+Note: This allows Private Subnet instances to access the internet via ifp-web-server.
