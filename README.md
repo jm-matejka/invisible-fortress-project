@@ -1,16 +1,16 @@
-# 🏰 The Invisible Fortress: Secure 3-Tier Cloud Architecture
+# The Invisible Fortress: Secure 3-Tier Cloud Architecture
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Terraform](https://img.shields.io/badge/Infrastructure-Manual%20%2F%20IaC-blueviolet)
 ![Python](https://img.shields.io/badge/Python-Automation-yellow)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-green)
 
-## 📋 Project Overview
+## Project Overview
 **The Invisible Fortress** is a cloud infrastructure project realised for purpose of my personal learning. Designed to demonstrate secure, scalable, and cost-effective architecture on AWS. The core philosophy is **Security by Design** — critical data and backend services are isolated in private networks, inaccessible from the public internet, while maintaining operational capability through secure routing and automation.
 
 I have implemented enterprise-grade patterns like: **VPC segmentation**, **Bastion Hosts**, **NAT routing**, and **Automated Off-site Backups**.
 
-## 🏗️ Architecture Diagram
+## Architecture Diagram
 
 ```mermaid
 graph TD
